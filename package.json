@@ -1,0 +1,27 @@
+{
+  "name": "node-starter",
+  "version": "1.0.0",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node App.js"
+  },
+  "engines": {
+    "node": "22.17.1"
+  },
+  "author": "Preet Yadav",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "joi": "^17.13.3",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.16.5",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.10"
+  }
+}
